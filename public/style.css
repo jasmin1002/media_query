@@ -395,3 +395,35 @@ footer {
         padding-bottom: 15rem;
     }
 }
+
+@media only screen and (max-width: 888px) {
+    .contact {
+        flex: 2rem;
+    }
+
+    .pages {
+        flex: 2rem;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .contact,
+    .pages {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .header,
+    .content {
+        padding: 5rem 4rem;
+    }
+
+    .content {
+        padding-bottom: 15rem; 
+    }
+
+    footer {
+        padding: 20rem 5rem 4rem
+    }
+}
