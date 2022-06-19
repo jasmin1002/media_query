@@ -303,3 +303,95 @@ footer {
     color: var(--pale-cyan);
     fill: var(--pale-cyan);
 }
+
+
+@media only screen and (max-width: 1226px) {
+    .heading-hero {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+
+    .header {
+        min-height: 85vh;
+    }
+    .hero-banner {
+        max-width: 77%;
+    }
+
+    .heading-hero {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 1076px) {
+
+    .header {
+        padding: 5rem 7rem;
+    }
+}
+
+@media only screen and (max-width: 1009px) {
+
+    .heading-hero {
+        font-size: 2.5rem;
+    }    
+}
+
+@media only screen and (max-width: 951px) {
+
+    .content {
+        padding: 5rem 7rem;
+        padding-bottom: 20rem;
+    }
+    .heading-hero {
+        font-size: 2.4rem;
+    }
+
+    .heading-hero-s {
+        font-size: 2rem;
+    }
+
+    footer {
+        padding: 20rem 7rem 4rem;
+    }
+
+    .row > * {
+        flex: none
+    }
+
+    .contact {
+        flex: 3;
+    }
+
+    .pages {
+        flex: 2;
+    }
+}
+
+@media only screen and (max-width: 932px) {
+    .heading-hero {
+        font-size: 2.2rem;
+    }
+
+    .hero-detail {
+        font-size: 1.5rem;
+    }
+
+    .detail-description {
+        font-size: 1.58rem;
+    }
+
+    .detail-team {
+        padding: 4rem 7rem;
+    }
+
+    .callout > div {
+        padding: 4rem 4.5rem;
+    }
+
+    .content {
+        padding-bottom: 15rem;
+    }
+}
