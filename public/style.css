@@ -212,11 +212,22 @@ body {
     background-color: #fefefe;
 }
 
+/********************************
+    Footer's Style
+********************************/
+
 .heading-hero-s {
     font-size: 2.7rem;
     margin-bottom: 3.5rem;
-    
-    background-color: #fefefe;
+}
+
+.logo-footer {
+    width: 15%;
+    font-size: 2rem;
+}
+
+.footer-logo-box {
+    margin-bottom: 2.2rem;
 }
 
 footer {
@@ -224,10 +235,71 @@ footer {
     min-height: 20rem;
     background-color: var(--dark-cyan);
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
+
 }
 
-.logo-footer {
-    fill: #fefefe;
-    background-color: #fefefe;
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row > * {
+    flex: 1;
+    list-style: none;
+    color: var(--pale-cyan);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.57rem;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item:not(:last-child) {
+    margin-bottom: 1.3rem;
+}
+
+.contact-item > * {
+    align-self: flex-start;
+    line-height: 1.3;
+    
+    font-weight: 400;
+    /* justify-self: center; */
+}
+
+.contact-icon {
+    margin-right: 1.2rem;
+}
+
+
+.pages > * {
+    display: inline-block;
+    width: 45%;
+}
+
+.pages-link {
+    text-decoration: none;
+    color: var(--pale-cyan);
+}
+
+.social-icon-item {
+    display: inline-block;
+}
+.social-icon-link{color: var(--pale-cyan)}
+.social-icon-item > * {
+    text-decoration: none;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    color: var(--pale-cyan);
+    border: 1px solid var(--pale-cyan);
+}
+
+.social-presence {
+    color: var(--pale-cyan);
+    fill: var(--pale-cyan);
 }
